@@ -12,7 +12,7 @@ ALLOWED_COUNTRIES = "BR,PT,US"                 # 允许触发动态层的国家�
 # 绑定 KV（创建后替换 id / preview_id）
 [[kv_namespaces]]
 binding = "CONFIG"
-id = ""              # 生产 ID
+id = "0c761e4ca68542839a3bbe5b5f1535db"              # 生产 ID
 preview_id = ""      # 预览 ID
 
 # 如果你已接入自定义域名，可取消注释 routes 并填写
