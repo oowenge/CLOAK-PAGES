@@ -6,7 +6,7 @@ workers_dev = true
 # 配置变量：部署后再替换为你的实际值
 [vars]
 PAGES_ORIGIN = "cloak-pages.pages.dev"
-DYNAMIC_ORIGIN = "https://httpbin.org"        # 示例动态源，可换成你的后端
+DYNAMIC_ORIGIN = "https://mestre.world"        # 示例动态源，可换成你的后端
 ALLOWED_COUNTRIES = "BR,PT,US"                 # 允许触发动态层的国家代码，逗号分隔
 
 # 绑定 KV（创建后替换 id / preview_id）
