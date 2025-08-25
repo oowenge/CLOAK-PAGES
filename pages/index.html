@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>欢迎来到小站</title>
+    <style>
+      body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Arial,sans-serif;margin:0;padding:0;background:#0b1020;color:#e6eaf2;}
+      .wrap{max-width:880px;margin:7vh auto;padding:24px;}
+      .card{background:#121831;border-radius:18px;padding:28px;box-shadow:0 20px 40px rgba(0,0,0,.35)}
+      h1{font-size:28px;margin:0 0 12px}
+      p{line-height:1.7;margin:8px 0 0;color:#b9c1d6}
+      a{color:#9ad6ff;text-decoration:none}
+      a:hover{text-decoration:underline}
+      code{background:#0b132b;border-radius:6px;padding:2px 6px}
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="card">
+        <h1>这是一层“伪装”静态页</h1>
+        <p>正常访客会看到这页。你可以自由改造成博客、着陆页或文档站。</p>
+        <p>示例接口：<code>/_health</code>（健康检查）</p>
+        <p>示例动态触发路径：<code>/go/*</code>（仅白名单国家或携带密钥时生效）</p>
+        <p>项目模板来自 Cloudflare Workers + Pages + KV。请根据你的业务合法合规地使用。</p>
+      </div>
+    </div>
+  </body>
+</html>
