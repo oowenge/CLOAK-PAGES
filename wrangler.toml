@@ -17,5 +17,5 @@ preview_id = ""      # 预览 ID
 
 # 如果你已接入自定义域名，可取消注释 routes 并填写
 # [[routes]]
-# pattern = "example.com/*"
-# zone_name = "example.com"
+# pattern = "p7bet.net/*"
+# zone_name = "p7bet.net"
